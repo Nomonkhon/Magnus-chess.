@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+.container, #levelMenu, #gameContainer {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+#startBtn {
+  background-color: #007BFF;
+  color: white;
+  font-size: 24px;
+}
+.level-btn {
+  font-size: 22px;
+  background-color: #444;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.coder {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #aaa;
+}

@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Magnus Chess AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chessboard-1.0.0.min.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="magnus.jpg" class="background-image" />
+    <button id="startBtn">Начать</button>
+  </div>
+
+  <div id="levelMenu" class="hidden">
+    <img src="level.jpg" class="background-image" />
+    <button class="level-btn" data-level="easy">Лёгкий</button>
+    <button class="level-btn" data-level="medium">Средний</button>
+    <button class="level-btn" data-level="hard">Сложный</button>
+  </div>
+
+  <div id="gameContainer" class="hidden">
+    <div id="board" style="width: 100%; max-width: 500px;"></div>
+    <p id="status"></p>
+    <p id="timer">10:00</p>
+    <p class="coder">Coder by Nomonkhon</p>
+  </div>
+
+  <script src="chess.js"></script>
+  <script src="chessboard-1.0.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
